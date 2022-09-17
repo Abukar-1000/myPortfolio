@@ -1,4 +1,5 @@
 import React from "react";
+import Face from "./Face";
 import "../css/cube.css";
 
 function Cube() {
@@ -6,14 +7,15 @@ function Cube() {
         <>
             <div className="cubeContainer">
                 <div className="cube">
-                    <div className="face front"></div>
-                    <div className="face back"></div>
-                    <div className="face right"></div>
-                    <div className="face left"></div>
-                    <div className="face top"></div>
-                    <div className="face bottom"></div>
+                    <Face side = "front"/>
+                    <Face side = "back"/>
+                    <Face side = "right"/>
+                    <Face side = "left"/>
+                    <Face side = "top"/>
+                    <Face side = "bottom"/>
                 </div>
             </div>
+            
         </>
     );
 }

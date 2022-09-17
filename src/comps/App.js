@@ -4,7 +4,9 @@ import Cube from "./Cube";
 function App() {
   return (
     <>
-      <Cube />
+      <Cube>
+      </Cube>
+      <Cube></Cube>
     </>
   );
 }

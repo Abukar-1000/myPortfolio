@@ -1,4 +1,4 @@
-.root {
+:root {
     --startYAngle: 0deg;
     --startXAngle: 0deg;
     --stopXAngle: 360deg;
@@ -10,10 +10,11 @@ body {
 }
 
 .cubeContainer {
-    width: 200px;
-    height: 200px;
-    perspective: 1000px;
-    margin: 10% auto 0;
+    width: 22vh;
+    height: 22vh;
+    perspective: 500vh;
+    margin: 10% auto 0 10%;
+    display: inline-block;
 }
 
 .cube {
@@ -21,43 +22,35 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    animation: spin 5s infinite linear;
-}
-
-.face {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: white;
-    border: solid black;
+    animation: spin 10s infinite linear;
 }
 
 .top {
-    transform: rotateX(90deg) translateZ(100px);
+    transform: rotateX(90deg) translateZ(11vh);
 }
 .bottom {
-    transform: rotateX(-90deg) translateZ(100px);
+    transform: rotateX(-90deg) translateZ(11vh);
 }
 .left {
-    transform: rotateY(-90deg) translateZ(100px);
+    transform: rotateY(-90deg) translateZ(11vh);
 }
 .right {
-    transform: rotateY(90deg) translateZ(100px);
+    transform: rotateY(90deg) translateZ(11vh);
 }
 .front {
-    transform: rotateX(0deg) translateZ(100px);
+    transform: rotateX(0deg) translateZ(11vh);
 }
 .back {
-    transform: rotateX(-180deg) translateZ(100px);
+    transform: rotateX(-180deg) translateZ(11vh);
 }
 
 @keyframes spin {
     from {
-        transform: rotateX(0deg) rotateY(0deg);
-        /* transform: rotateX(var(--startXAngle)) rotateY(var(--startYAngle)); */
+        /* transform: rotateX(0deg) rotateY(0deg); */
+        transform: rotateX(var(--startXAngle)) rotateY(var(--startYAngle));
     }
     to {
-        transform: rotateX(360deg) rotateY(360deg);
-        /* transform: rotateX(var(--stopXAngle)) rotateY(var(--stopYAngle)); */
+        /* transform: rotateX(360deg) rotateY(360deg); */
+        transform: rotateX(var(--stopXAngle)) rotateY(var(--stopYAngle));
     }
 }
