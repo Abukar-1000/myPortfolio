@@ -1,0 +1,12 @@
+import '../css/App.css';
+import Cube from "./Cube";
+
+function App() {
+  return (
+    <>
+      <Cube />
+    </>
+  );
+}
+
+export default App;

@@ -1,0 +1,63 @@
+.root {
+    --startYAngle: 0deg;
+    --startXAngle: 0deg;
+    --stopXAngle: 360deg;
+    --stopYAngle: 360deg;
+}
+
+body {
+    background-color: #222;
+}
+
+.cubeContainer {
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 10% auto 0;
+}
+
+.cube {
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: spin 5s infinite linear;
+}
+
+.face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    border: solid black;
+}
+
+.top {
+    transform: rotateX(90deg) translateZ(100px);
+}
+.bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+}
+.left {
+    transform: rotateY(-90deg) translateZ(100px);
+}
+.right {
+    transform: rotateY(90deg) translateZ(100px);
+}
+.front {
+    transform: rotateX(0deg) translateZ(100px);
+}
+.back {
+    transform: rotateX(-180deg) translateZ(100px);
+}
+
+@keyframes spin {
+    from {
+        transform: rotateX(0deg) rotateY(0deg);
+        /* transform: rotateX(var(--startXAngle)) rotateY(var(--startYAngle)); */
+    }
+    to {
+        transform: rotateX(360deg) rotateY(360deg);
+        /* transform: rotateX(var(--stopXAngle)) rotateY(var(--stopYAngle)); */
+    }
+}
