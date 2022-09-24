@@ -1,0 +1,29 @@
+
+.container {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding-bottom: 10%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+}
+
+.container > * {
+    display: inline-block;
+}
+
+.name {
+    margin: auto 10%;
+    font-size: 6rem;
+    position: relative;
+    right: -10vh;
+    top: -10vh;
+}
+
+.leftMostCube {
+    position: relative;
+    right: 2vh;
+}

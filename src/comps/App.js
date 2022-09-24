@@ -1,11 +1,13 @@
 import '../css/App.css';
-import Cube from "./Cube";
+import Head from "./Head";
 
+/*
+  head z -1
+*/
 function App() {
   return (
     <>
-      <Cube />
-      <Cube />
+      <Head/>
     </>
   );
 }

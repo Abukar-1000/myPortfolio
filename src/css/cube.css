@@ -22,7 +22,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    animation: spin 10s infinite alternate-reverse;
+    animation: spin 20s infinite alternate-reverse;
 }
 
 .top {
