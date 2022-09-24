@@ -1,8 +1,8 @@
 :root {
     --startYAngle: 0deg;
     --startXAngle: 0deg;
-    --stopXAngle: 360deg;
-    --stopYAngle: 360deg;
+    --stopXAngle: 720deg;
+    --stopYAngle: 720deg;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    animation: spin 10s infinite linear;
+    animation: spin 10s infinite alternate-reverse;
 }
 
 .top {
@@ -45,12 +45,16 @@ body {
 }
 
 @keyframes spin {
-    from {
-        /* transform: rotateX(0deg) rotateY(0deg); */
+    /* {
+        transform: rotateX(0deg) rotateY(0deg);
         transform: rotateX(var(--startXAngle)) rotateY(var(--startYAngle));
-    }
-    to {
+    } 
+    */
+    50% {
         /* transform: rotateX(360deg) rotateY(360deg); */
         transform: rotateX(var(--stopXAngle)) rotateY(var(--stopYAngle));
+    }
+    100% {
+        transform: rotateX(var(--startXAngle)) rotateY(var(--startYAngle));
     }
 }
