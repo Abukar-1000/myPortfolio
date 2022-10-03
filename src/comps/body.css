@@ -1,0 +1,15 @@
+.bodyContent {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: inline-block;
+    top: 58vh;
+    text-align: center;
+    padding-bottom: 20vh;
+    /* left: 200px; */
+}
+
+.bodyContent > * {
+    margin: 0 auto;
+}
+

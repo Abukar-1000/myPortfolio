@@ -1,0 +1,31 @@
+
+.gpaCard {
+    background-color: #ECF0F3;
+    height: 30vh;
+    width: 40vh;
+    border-radius: 20px;
+    position: relative;
+    right: 20%;
+    top: 2vh;
+
+    /* fonts */
+    font-family: 'Aboreto', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.gpaCard::before {
+    box-shadow: 1vh 1vh #D1D9E6;
+}
+.gpaCard::after {
+    box-shadow: -1vh -1vh #D1D9E6;
+}
+.innerContent {
+    position: relative;
+    top: 4vh;
+}
+
+.gpaCard > h1 {
+    position: relative;
+    top: 3vh;
+}
