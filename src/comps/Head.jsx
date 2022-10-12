@@ -9,7 +9,7 @@ function Head(){
             <div className="container">
                 <Cube />
                 <h1 className="name">Abukar Djama</h1>
-                <Cube />
+                {/* <Cube /> */}
             </div>
         </>
     );
