@@ -1,5 +1,5 @@
 import React from "react";
-import "./gpaCard.css";
+import "../../css/gpaCard.css";
 
 function GpaCard(){
     return (
