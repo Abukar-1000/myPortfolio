@@ -3,13 +3,69 @@
     height: 100vh;
     position: relative;
     display: inline-block;
-    top: 58vh;
+    /* top: 58vh; */
     text-align: center;
     padding-bottom: 20vh;
     /* left: 200px; */
 }
 
+/* general styles for all children items in the body component */
 .bodyContent > * {
-    margin: 0 auto;
+    display: inline-block;
 }
 
+.leftColumn > * {
+    margin-top: 2vh;
+}
+.rightColumn {
+    position: relative;
+    left: 10vw;
+    top: 61vh;
+}
+
+.leftColumn {
+    position: relative;
+    left: -10vw;
+    top: 3vh;
+}
+
+/* card for personal description */
+.PersonalCard {
+    background-color: #ECF0F3;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1vh 2vw 1vh 1vw;
+    max-width: 30vw;
+    /* fonts */
+    font-family: 'Aboreto', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.PersonalCard li {
+    text-align: left;
+}
+
+/* course work */
+.courseWork {
+    background-color: #ECF0F3;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1vh 2vw 2vh 1vw;
+    max-width: 30vw;
+    /* fonts */
+    font-family: 'Aboreto', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.courseWork li {
+    text-align: left;
+    margin-left: 2vw;
+}
+
+/* programming languages */

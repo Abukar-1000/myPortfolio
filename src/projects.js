@@ -1,4 +1,4 @@
-let projects = [
+const projects = [
     {
         title: "Wifi Bomb",
         duration: "May 2022 - Present Day",
@@ -27,14 +27,44 @@ let projects = [
     }
 ];
 
-let personalDiscription = {
+const personalDiscription = {
     about: [
         "Willing to learn and adapt to my environment",
         "Eager to take on challenges and make an impact"
     ]
 };
 
+const courseWork = {
+    undergraduate: [
+        "Computing 1",
+        "Computing 2",
+        "Database Management",
+        "Discrete Computational Structures",
+        "Data Structures & Algorithms",
+        "Computer Architecture"
+    ],
+    sideCourses: [
+        "Full Stack Web Development",
+        "Python Programming",
+        "Ethical Hacking"
+    ]
+};
+
+const programmingLanguages = {
+    confident: "Python, C++, JavaScript, HTML, CSS, JQuery, SQL, Node.js, Bootstrap",
+    familiar: "Java, React.js, Mongodb"
+} 
+
+const awards = [
+    "2022 – IUPUI Highest Honors",
+    "2021 – IUPUI Highest Honors",
+    "2020 – MTI A-Honor Roll"
+];
+
 export {
     projects,
-    personalDiscription
+    personalDiscription,
+    courseWork,
+    programmingLanguages,
+    awards
 };
