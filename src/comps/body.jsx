@@ -25,7 +25,7 @@ function BodySec(){
                 <div className="leftColumn">
                     <GpaCard />
                     <CourseWork undergraduate = {courseWork.undergraduate} sideCourses = {courseWork.sideCourses} />
-                    {/* <Languages familiar = /> */}
+                    <Languages familiar = {programmingLanguages.familiar} confident = {programmingLanguages.confident}/>
                 </div>
                 <div className = "rightColumn">
                     {allProjects}

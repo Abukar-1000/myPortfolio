@@ -1,3 +1,10 @@
+body {
+    /* fonts */
+    font-family: 'Aboreto', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 2vh;
+}
 .bodyContent {
     width: 100vw;
     height: 100vh;
@@ -38,11 +45,6 @@
     text-align: center;
     padding: 1vh 2vw 1vh 1vw;
     width: 30vw;
-    /* fonts */
-    font-family: 'Aboreto', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-    margin-bottom: 2vh;
 }
 
 .PersonalCard li {
@@ -108,7 +110,24 @@
     .leftColumn {
         position: relative;
         left: -10vw;
-        top: -5vh;
+        top: 33vh;
+    }
+    .Languages {
+        font-weight: normal;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        text-align: center;
+        padding: 1vh 2vw 1vh 1vw;
+        width: 30vw;
+        background-color: #ECF0F3;
+    }
+    .Languages h1 {
+        text-align: left;
+    }
+    .LanguagesList {
+        padding-left: 3vw;
+        text-align: center;
+        font-size: 1.2rem;
     }
 }
 
