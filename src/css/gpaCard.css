@@ -29,3 +29,37 @@
     position: relative;
     top: 3vh;
 }
+
+
+/* desktop query */
+@media screen and (min-width: 1440px){
+    .gpaCard {
+        background-color: #ECF0F3;
+        height: 30vh;
+        width: 30vw;
+        border-radius: 20px;
+        position: relative;
+        left: 0vw;
+        padding-top: 1vh;
+    }
+    
+}
+
+/* medium screen */
+@media screen and (min-width: 700px) and (max-width: 1200px){
+    .gpaCard {
+        background-color: #ECF0F3;
+        height: 50vh;
+        width: 35vw;
+        border-radius: 20px;
+        position: relative;
+        left: 1vw;
+        padding: 1vh 1vw 5vh 1vw;
+    
+        /* fonts */
+        font-family: 'Aboreto', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+}

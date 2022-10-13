@@ -23,6 +23,7 @@
     top: 61vh;
 }
 
+
 .leftColumn {
     position: relative;
     left: -10vw;
@@ -69,3 +70,31 @@
 }
 
 /* programming languages */
+
+
+/* desktop query */
+@media screen and (min-width: 1240px){
+    .leftColumn {
+        position: relative;
+        left: -10vw;
+        top: 41vh;
+    }
+}
+
+/* medium screen */
+@media screen and (min-width: 1023px){
+    .leftColumn {
+        position: relative;
+        left: -10vw;
+        top: -18vh;
+    }
+}
+
+/* smaller medium screen */
+@media screen and (min-height: 1025px){
+    .leftColumn {
+        position: relative;
+        left: -10vw;
+        top: -45vh;
+    }
+}

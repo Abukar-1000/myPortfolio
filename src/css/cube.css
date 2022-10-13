@@ -58,3 +58,14 @@ body {
         transform: rotateX(var(--startXAngle)) rotateY(var(--startYAngle));
     }
 }
+
+/* 
+mobile
+    hide cube
+*/
+@media screen and (max-width: 600px){
+    .cube {
+        display: none;
+    }
+    
+}
