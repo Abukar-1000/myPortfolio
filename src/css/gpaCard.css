@@ -32,7 +32,7 @@
 
 
 /* desktop query */
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 2550px){
     .gpaCard {
         background-color: #ECF0F3;
         height: 30vh;
@@ -60,6 +60,32 @@
         font-family: 'Aboreto', cursive;
         font-family: 'Ubuntu', sans-serif;
         font-family: 'Work Sans', sans-serif;
+    }
+    
+}
+/* mac screen */
+@media screen and (min-width: 1400px){
+    .gpaCard {
+        background-color: #ECF0F3;
+        height: 40vh;
+        width: 30vw;
+        border-radius: 20px;
+        position: relative;
+        left: 1vw;
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+    }
+}
+
+/* phone size */
+@media screen and (max-width: 700px){
+    .gpaCard {
+        height: 40vh;
+        width: 80vw;
+        left: 1vw;
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+        font-size: .8rem;
     }
     
 }
