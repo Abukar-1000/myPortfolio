@@ -11,6 +11,11 @@ function Head(){
                 <h1 className="name">Abukar Djama</h1>
                 {/* <Cube /> */}
             </div>
+            <div className="optionBar">
+                <div className="options">
+                    <a href="#ContactSection">Contact Me</a>
+                </div>
+            </div>
         </>
     );
 }

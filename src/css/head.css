@@ -21,10 +21,10 @@
 
 .name {
     margin: auto 10%;
-    font-size: 6rem;
+    font-size: 15rem;
     position: relative;
     right: -10vh;
-    top: -10vh;
+    top: 15vh;
 }
 
 .leftMostCube {
@@ -32,6 +32,28 @@
     right: 2vh;
 }
 
+.optionBar {
+    height: 5vh;
+    background-color: #222;
+    position: sticky;
+    top: 0;
+}
+
+.options {
+    position: relative;
+    left: 50%;
+    height: inherit;
+    width: 50%;
+    background-color: transparent;
+    text-align: left;
+}
+.options > * {
+    font-size: 3rem;
+    /* padding-left: 10%; */
+    padding-top: 2%;
+    color: white;
+    text-decoration: none;
+}
 /* 
 mobile
     hide cube

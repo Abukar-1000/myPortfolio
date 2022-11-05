@@ -1,7 +1,7 @@
 
 .gpaCard {
     background-color: #ECF0F3;
-    height: 50vh;
+    height: 30vh;
     width: 30vw;
     border-radius: 20px;
     position: relative;
@@ -12,6 +12,7 @@
     font-family: 'Aboreto', cursive;
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
 }
 
 .gpaCard::before {
@@ -32,10 +33,10 @@
 
 
 /* desktop query */
-@media screen and (min-width: 2550px){
+/* @media screen and (min-width: 2550px){
     .gpaCard {
         background-color: #ECF0F3;
-        height: 30vh;
+        height: 20vh;
         width: 30vw;
         border-radius: 20px;
         position: relative;
@@ -43,10 +44,10 @@
         padding-top: 1vh;
     }
     
-}
+} */
 
 /* medium screen */
-@media screen and (min-width: 700px) and (max-width: 1200px){
+/* @media screen and (min-width: 700px) and (max-width: 1200px){
     .gpaCard {
         background-color: #ECF0F3;
         height: 50vh;
@@ -56,15 +57,15 @@
         left: 1vw;
         padding: 1vh 1vw 5vh 1vw;
     
-        /* fonts */
+        fonts
         font-family: 'Aboreto', cursive;
         font-family: 'Ubuntu', sans-serif;
         font-family: 'Work Sans', sans-serif;
     }
     
-}
+} */
 /* mac screen */
-@media screen and (min-width: 1400px){
+/* @media screen and (min-width: 1400px){
     .gpaCard {
         background-color: #ECF0F3;
         height: 40vh;
@@ -75,10 +76,10 @@
         padding-top: 1vh;
         padding-bottom: 3vh;
     }
-}
+} */
 
 /* phone size */
-@media screen and (max-width: 700px){
+/* @media screen and (max-width: 700px){
     .gpaCard {
         height: 40vh;
         width: 80vw;
@@ -88,4 +89,4 @@
         font-size: .8rem;
     }
     
-}
+} */

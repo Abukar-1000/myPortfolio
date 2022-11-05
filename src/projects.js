@@ -52,7 +52,7 @@ const courseWork = {
 
 const programmingLanguages = {
     confident: "Python, C++, JavaScript, HTML, CSS, JQuery, SQL, Node.js, Bootstrap",
-    familiar: "Java, React.js, Mongodb"
+    familiar: "Java, Rust, React.js, Mongodb"
 } 
 
 const awards = [
