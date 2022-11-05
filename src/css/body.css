@@ -56,7 +56,7 @@ body::-webkit-scrollbar {
 
 .PersonalCard li {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 /* course work */
@@ -128,10 +128,22 @@ body::-webkit-scrollbar {
     color: white;
 }
 
+.ContactLinks a:hover {
+    color: #FFC60B;
+    transition-property: color;
+    transition-duration: .7s;
+}
 .cubeContainer {
     position: absolute;
     top: -10%;
     left: 3%;
+}
+
+.Ctag {
+    position: relative;
+    top: 85%;
+    font-size: 2.2rem;
+    color: white;
 }
 /* desktop query */
 /* @media screen and (min-width: 1240px){
@@ -198,7 +210,7 @@ body::-webkit-scrollbar {
 } */
 
 /* phone size */
-/* @media screen and (max-width: 700px){
+@media screen and (max-width: 700px){
     html,body {
         scroll-behavior: smooth;
     }
@@ -229,4 +241,4 @@ body::-webkit-scrollbar {
     .PersonalCard h1 {
         font-size: 1.9rem;
     }
-} */
+}

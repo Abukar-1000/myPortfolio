@@ -43,6 +43,7 @@ function BodySec(){
                             <a href="https://github.com/Abukar-1000">GitHub</a>
                             <a href="mailto:abukardjama1@gmail.com, adjama@iu.edu">Send Email</a>
                         </div>
+                        <p className="Ctag">© Abukar Djama 2022</p>
                     </div>
                     <Cube />
                 </div>
